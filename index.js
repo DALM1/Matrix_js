@@ -7,13 +7,13 @@ window.onload = function () {
   h = canvas.height = window.innerHeight;
 
   
-  var clearColor = "rgba(0, 0, 0, .1)", //用于绘制渐变阴影
-    wordColor = "#00ced1", //文字颜色
+  var clearColor = "rgba(0, 0, 0, .1)", 
+    wordColor = "#00ced1", 
     words =
       "ABΓ∆EZHΘIKaΛMNΞOけազէրտեըիոպխսդֆքհճկլմւցգվբն刀ΠPΣTΥΦXΨΩ坤埉垞坊在坤〩,./;'[]ﷹαβγδεけ∑ξζηθικλμνξοπρστυφχψω",
-    wordsArr = words.split(""), //将文字拆分进一个数组
-    font_size = 16, //字体大小
-    clumns = w / font_size, //文字降落的列数
+    wordsArr = words.split(""), 
+    font_size = 16, 
+    clumns = w / font_size, 
     drops = [];
 
   for (var i = 0; i < clumns; i++) {
